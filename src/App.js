@@ -13,8 +13,17 @@ export default function App() {
     "Lucas Baker"
   ];
   const [nome, setNome] = useState("");
-  function onClickRedfield() {}
-  function onClickBaker() {}
+  function onClickRedfield() {    
+    const Redfield=(event)=>{
+      setNome('Redfield')
+}
+  }
+  function onClickBaker() {
+    const Baker=(event)=>{
+      setNome('Baker')
+    }
+  }
+
   return (
     <div>
       <h3>Personagens de Resident Evil</h3>
